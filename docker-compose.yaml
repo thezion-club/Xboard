@@ -1,6 +1,6 @@
 services:
   xboard:
-    image: ghcr.io/thezion-club/xboard:latest
+    image: ghcr.io/thezion-club/xboard:production
     volumes:
       - ./.env:/www/.env
       - ./.docker/.data/:/www/.docker/.data/
